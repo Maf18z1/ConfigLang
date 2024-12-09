@@ -1,0 +1,19 @@
+{
+  "//": "This is a single-line comment",
+  "/* multi_line */": "This is a multi-line\ncomment example",
+  "x": 10,
+  "q": "ACKCA",
+  "y": 20,
+  "a": 5,
+  "b": 3,
+  "z": 4,
+  "expression1": "^{max((3 + 5), (8 * 2))}",
+  "expression2": "^{x + y * (a - b)}",
+  "expression3": "^{max(x, y) * (a + b)}",
+  "expression4": "^{(((x + y) * 2) / (a - b))}",
+  "expression5": "^{max((x + y), (10 * z))}",
+  "nested_config": {
+    "value": "^{x * y}",
+    "// nested_comment": "Another single-line comment"
+  }
+}
